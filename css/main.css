@@ -1,1 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Meera+Inimai';
 
+html,
+body {
+  font-family: 'Meera Inimai', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav bar */
+
+ nav ul {
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  background-color: #Fff;
+  font-family: "comfortaa",sans-serif; 
+  font-size: 1.2em; 
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px; 
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;  
+}
+nav ul li a:hover {
+  color: #ababab;
+}
