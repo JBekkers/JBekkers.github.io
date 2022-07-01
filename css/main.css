@@ -11,15 +11,23 @@ body {
   padding: 0;
 }
 
+hr {
+    border: none;
+    color: #BFFFE6;
+    overflow: visible;
+    text-align: center;
+    height: 80px;
+}
+
 /* Nav bar */
 
  nav ul {
   position: fixed;
-  text-align: right;
+  text-align: center;
   width: 100%;
-  background-color: #Fff;
-  font-family: "comfortaa",sans-serif; 
-  font-size: 1.2em; 
+  background-color: #EAEAEA;
+  font-family: "Meera Inimai",sans-serif; 
+  font-size: 1.5em; 
 }
 
 nav ul li {
@@ -40,14 +48,45 @@ nav ul li a:hover {
 #welcome {
   top: 20;
   line-height: 1.6;
-  background: #F5F5F5;
-  min-height: 55vh;
-  padding-top: 45vh;
+  background: #BFFFE6;
+  min-height: 35vh;
+  padding-top: 35vh;
   text-align: 
 }
 
-.Portfolio .Portfolio-header {
-  margin-top: 50px;
+/* About me */
+
+.about {
+  padding-top: 20px;
+  margin-top: -60px;
+  padding-bottom: 300px;
+  background-color: #dcdcdc;
+}
+
+.about .About-header {
+  margin-top: 10px;
+  color: #111;
+  font-weight: normal;
+}
+
+.About-text{
+  margin: auto;
+  width: 40%;
+  color: #111;
+  font-weight: normal;
+}
+
+/* Portfolio */
+
+.work {
+  padding-top: 10px;
+  margin-top: -60px;
+  padding-bottom: 300px;
+  background-color: #dcdcdc;
+}
+
+.work .Portfolio-header {
+  margin-top: 10px;
   color: #111;
   font-weight: normal;
 }
