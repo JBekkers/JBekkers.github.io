@@ -1,8 +1,8 @@
-@import 'https://fonts.googleapis.com/css?family=Meera+Inimai';
+@import 'https://fonts.googleapis.com/css?family=Abel';
 
 html,
 body {
-  font-family: 'Meera Inimai', sans-serif;
+  font-family: 'Abel', sans-serif;
   text-align: center;
 }
 
@@ -26,7 +26,7 @@ hr {
   text-align: center;
   width: 100%;
   background-color: #EAEAEA;
-  font-family: "Meera Inimai",sans-serif; 
+  font-family: "Abel",sans-serif; 
   font-size: 1.5em; 
 }
 
