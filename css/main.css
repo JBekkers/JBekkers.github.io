@@ -90,3 +90,17 @@ nav ul li a:hover {
   color: #111;
   font-weight: normal;
 }
+
+/* mobile */
+
+@media screen and (max-width: 400px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
