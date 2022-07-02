@@ -65,7 +65,8 @@ nav ul li a:hover {
 .about .About-header {
   margin-top: 10px;
   color: #111;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.8em; 
 }
 
 .About-text{
@@ -80,7 +81,8 @@ nav ul li a:hover {
 .Skills-header {
   margin-top: 10px;
   color: #111;
-  font-weight: normal;
+  font-weight: bold;
+    font-size: 1.4em; 
 }
 .skills{
   padding-top: 80px;
@@ -99,7 +101,7 @@ box-sizing: border-box;
 }
   
 .logo img{		
-width: 70px;    
+width: 55px;    
 }
 
 /* Portfolio */
@@ -114,7 +116,8 @@ width: 70px;
 .work .Portfolio-header {
   margin-top: 10px;
   color: #111;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.8em; 
 }
 
 /* Contact */
@@ -128,7 +131,8 @@ width: 70px;
 .contact .Contact-header {
   margin-top: 10px;
   color: #111;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.8em; 
 }
 
 /* mobile */
