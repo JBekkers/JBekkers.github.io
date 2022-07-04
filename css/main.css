@@ -78,26 +78,30 @@ nav ul li a:hover {
 
 /* Skills */
 
-.Skills-header {
+.skills{
+padding-top: 80px;
+margin-top: -60px;
+padding-bottom: 80px;
+background-color: #dcdcdc;
+}
+
+.skills .Skills-header {
   margin-top: 10px;
   color: #111;
   font-weight: bold;
-    font-size: 1.4em; 
+  font-size: 1.4em; 
 }
-.skills{
-  padding-top: 80px;
-  margin-top: -60px;
-  padding-bottom: 80px;
-  background-color: #dcdcdc;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  
+.logos{
+padding-top: 10px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+margin: 0 auto;
+max-width: 400px;
 }
-    
+
 .logo{      
-padding: 5px;   
-box-sizing: border-box;   
+overflow: hidden; 
 }
   
 .logo img{		
@@ -133,6 +137,14 @@ width: 55px;
   color: #111;
   font-weight: bold;
   font-size: 1.8em; 
+}
+
+.contactDetails{
+}
+
+.contact-img{
+    padding-top: 10px;
+    width: 100px; 
 }
 
 /* mobile */
