@@ -18,6 +18,10 @@ hr {
     height: 100px;
 }
 
+a{
+      text-decoration: none;
+}
+
 /* Nav bar */
 
  nav ul {
@@ -50,7 +54,6 @@ nav ul li a:hover {
   background: #BFFFE6;
   min-height: 35vh;
   padding-top: 35vh;
-  text-align: 
 }
 
 /* About me */
@@ -123,6 +126,23 @@ height: 55px;
   color: #111;
   font-weight: bold;
   font-size: 1.8em; 
+}
+
+.work-header{
+  margin-top: 40px;
+  color: #111;
+  font-weight: bold;
+  font-size: 1.8em; 
+}
+
+.work-header:hover{
+  color: #454545;
+}
+
+.work-description{
+    margin: auto;
+    width: 35%;
+    text-align: center;    
 }
 
 /* Contact */
