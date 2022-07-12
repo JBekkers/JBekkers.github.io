@@ -139,6 +139,36 @@ height: 55px;
   color: #454545;
 }
 
+.script-showcase{
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(4fr, auto);
+  grid-gap: 8px;
+}
+
+.script-showcase h2{
+  text-align: left; 
+  font-weight: bold;
+  font-size: 1.2em; 
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.script-showcase p{
+    text-align: left;  
+    width: 60%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.script-gif{
+    width: 200px;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+}
+
 .work-description{
     margin: auto;
     width: 35%;
