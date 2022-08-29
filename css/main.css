@@ -169,6 +169,19 @@ height: 55px;
     justify-self: end;
 }
 
+.used-tools{
+    list-style: none;
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: end;
+}
+
+.used-tools img{
+    width: 30px;
+    height: 30px;
+    justify-self: end;
+}
+
 .work-description{
     margin: auto;
     width: 35%;
