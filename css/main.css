@@ -22,11 +22,17 @@ a{
       text-decoration: none;
 }
 
+li{
+      list-style: none;
+}
+
 /* Nav bar */
 
  nav ul {
   position: fixed;
+  z-index:3;
   text-align: center;
+  
   width: 100%;
   background-color: #EAEAEA;
   font-family: "Abel",sans-serif; 
@@ -47,13 +53,43 @@ nav ul li a:hover {
 }
 
 /* Welcome */
+#Welcome{
+    position:relative;
+    height: 600px;
+}
 
-#welcome {
-  top: 20;
-  line-height: 1.6;
-  background: #BFFFE6;
-  min-height: 35vh;
-  padding-top: 35vh;
+#Welcome .bg-image {
+    position: absolute;
+  	left:0;
+	right:0;
+	top: 0;
+	bottom:0;
+  background-image: url("../Assets/Banner.png");
+
+  height: 100%;
+  background-size: cover; 
+  z-index:1;
+
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+
+}
+
+#Welcome .bg-text{
+  background-color: #BFFFE6;
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* About me */
@@ -167,10 +203,11 @@ height: 55px;
     grid-column: 1;
     grid-row: 2;
     justify-self: end;
+    border-style: solid;
+    border-width: 1px
 }
 
 .used-tools{
-    list-style: none;
     grid-column: 1;
     grid-row: 3;
     justify-self: end;

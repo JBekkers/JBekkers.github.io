@@ -7,7 +7,7 @@
 
     <nav>
       <ul id="navbar">
-        <li><a href="#welcome" rel="internal">Welcome</a></li>
+        <li><a href="#Welcome" rel="internal">Welcome</a></li>
         <li><a href="#About-me" rel="internal">About me</a></li>
         <li><a href="#Portfolio" rel="internal">Portfolio</a></li>
         <li><a href="#Contact-me" rel="internal">Contact</a></li>
@@ -16,14 +16,20 @@
 
 <body>
 
-<div id="welcome" >
-  <h1>Jelle Bekkers</h1>
-  <p>Game Developer</p>
+<div id="Welcome">
+    <div class="bg-text">
+        <h1>Jelle Bekkers</h1>
+        <p>Game Developer</p>
+    </div>
+
+        <div class="bg-image"></div>
 </div>
+
+<hr>
 
 <div id="About-me" class="about">
     <h2 class="About-header">About me</h2>
-    <p class="About-text">My name is Jelle Bekkers and I am a GameDeveloper.</p>
+    <p class="About-text">Hi my name is Jelle and i am a Game Developer. At a young age i started my intrest for playing games and that later grew out into a interest in developing. On this website you can look at projects i have worked on.</p>
 </div>
 
 <div class="skills">
@@ -76,7 +82,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/BM-Dialogue.gif" alt="Bushyman Dialogue">
+    <img class="script-gif" src="Assets/Gifs/BM-Dialogue.gif" alt="Bushyman Dialogue gif">
     <h2>Dialogue System</h2>
     <p> The dialogue sytem is made out of multiple scripts. One script is on the npc that has all the information on it like text/sprites and sfx and one script that manages everything. The manager puts all the info from the npc into a dialogue box and displays the text letter by letter.</p>
     
@@ -89,7 +95,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/BM-Movement.gif" alt="Bushyman Movement">
+    <img class="script-gif" src="Assets/Gifs/BM-Movement.gif" alt="Bushyman Movement gif">
     <h2>3rd Person Movement</h2>
     <p> The Movement script takes care of all the input from the player. The script lets you walk/run/hover/swim/attack and takes care of the 3rd person camera controls.</p>
     
@@ -109,7 +115,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/WW-Movement.gif" alt="WeepingWillows Movement">
+    <img class="script-gif" src="Assets/Gifs/WW-Movement.gif" alt="WeepingWillows Movement gif">
     <h2>2D Movement</h2>
     <p> The 2D movement script takes care of the player inputs. It allows the player to walk around and jump. This script was made so it could be played on keyboard but also on a Arcade Machine</p>
     
@@ -121,7 +127,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/WW-Health.gif" alt="WeepingWillows Health">
+    <img class="script-gif" src="Assets/Gifs/WW-Health.gif" alt="WeepingWillows Health gif">
     <h2>Player Health</h2>
     <p> The player health script keeps track of the amount of health the player has and updates the hearts in the UI. It also updates it once the player takes damage</p>
     
@@ -140,7 +146,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/BN-Spawner.gif" alt="Banananoid Spawner">
+    <img class="script-gif" src="Assets/Gifs/BN-Spawner.gif" alt="Banananoid Spawner gif">
     <h2>Monkey Spawner</h2>
     <p> The spawner script randomly picks one spawn location out of a list of possible spots and spawns a monkey there. The script also chooses what type of the 3 monkeys to spawn in</p>
     
@@ -152,7 +158,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/BN-Combo.gif" alt="Banananoid Combo">
+    <img class="script-gif" src="Assets/Gifs/BN-Combo.gif" alt="Banananoid Combo gif">
     <h2>Points Multiplier</h2>
     <p> The points multiplier script has a internal multiplier that multiplies the amount of points the player gets from hitting a monkey. The multiplier will reset back to 0 when the internal timer runs out but can be reset by hitting another monkey within this time frame.</p>
     
@@ -169,7 +175,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/SD-Shop.gif" alt="SheepDuction Shop">
+    <img class="script-gif" src="Assets/Gifs/SD-Shop.gif" alt="SheepDuction Shop gif">
     <h2>Shop</h2>
     <p> If a player intereacts with a shop item the shop script will check if the player has enough money to buy this item. If the player has the money it will take away the amount it cost to buy the weapon and then add the weapon to the Inventory or if they weapon is already there give the player ammo.</p>
     
@@ -181,7 +187,7 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/SD-Inventory.gif" alt="SheepDuction Inventory">
+    <img class="script-gif" src="Assets/Gifs/SD-Inventory.gif" alt="SheepDuction Inventory gif">
     <h2>Inventory</h2>
     <p> The inventory will keep track of what weapons the player has and how much ammo the player has for this weapon. It will also allow the player to scroll through their weapons with the mouse scroll wheel.</p>
     
@@ -193,12 +199,24 @@
     </div>
 
     <div class="script-showcase">
-    <img class="script-gif" src="Assets/Gifs/DC-Bot.gif" alt="Discord Bot">
+    <img class="script-gif" src="Assets/Gifs/DC-Bot.gif" alt="Discord Bot gif">
     <h2>Discord Bot</h2>
     <p> The discord bot will repond and execute commands that will for example give the user information about the server they are in or about a certain role they have. It also has some commands that dont really do anything but are more for fun.</p>
     
     <li class="used-tools">
     <img src="Assets/Logos/js.png" alt="JavaScript logo">
+    </li>
+    
+    </div>
+
+    <div class="script-showcase">
+    <img class="script-gif" src="Assets/Gifs/Website.gif" alt="Website gif">
+    <h2>Portfolio Website</h2>
+    <p> This website is custom build using html and css</p>
+    
+    <li class="used-tools">
+    <img src="Assets/Logos/html5.png" alt="html5 logo">
+    <img src="Assets/Logos/css3.png" alt="css3 logo">
     </li>
     
     </div>
