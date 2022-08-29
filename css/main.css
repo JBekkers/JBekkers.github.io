@@ -70,8 +70,8 @@ nav ul li a:hover {
   background-size: cover; 
   z-index:1;
 
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
   filter: blur(2px);
@@ -80,7 +80,7 @@ nav ul li a:hover {
 
 #Welcome .bg-text{
   background-color: #BFFFE6;
-  background-color: rgba(0,0,0, 0.4); 
+  background-color: rgba(0,0,0, 0.5); 
   color: white;
   position: relative;
   z-index: 2;
