@@ -59,22 +59,23 @@ nav ul li a:hover {
 }
 
 #Welcome .bg-image {
+    background-color: #BFFFE6;
     position: absolute;
   	left:0;
 	right:0;
 	top: 0;
-	bottom:0;
-  background-image: url("../Assets/Banner.png");
+    bottom:0;
+    background-image: url("../Assets/Banner.png");
 
-  height: 100%;
-  background-size: cover; 
-  z-index:1;
+    height: 100%;
+    background-size: cover; 
+    z-index:1;
 
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
 
 }
 
@@ -95,7 +96,7 @@ nav ul li a:hover {
 /* About me */
 
 .about {
-  padding-top: 20px;
+  padding-top: 80px;
   margin-top: -60px;
   padding-bottom: 80px;
   background-color: #dcdcdc;
@@ -118,9 +119,9 @@ nav ul li a:hover {
 /* Skills */
 
 .skills{
-padding-top: 80px;
+padding-top: 90px;
 margin-top: -60px;
-padding-bottom: 80px;
+padding-bottom: 60px;
 background-color: #dcdcdc;
 }
 
@@ -158,7 +159,7 @@ height: 55px;
 }
 
 .work .Portfolio-header {
-  margin-top: 10px;
+  margin-top: 90px;
   color: #111;
   font-weight: bold;
   font-size: 1.8em; 
@@ -227,7 +228,7 @@ height: 55px;
 
 /* Contact */
 .contact{
-  padding-top: 10px;
+  padding-top: 30px;
   margin-top: -60px;
   padding-bottom: 30px;
   background-color: #dcdcdc;
