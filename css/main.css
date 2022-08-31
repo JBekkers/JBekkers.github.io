@@ -269,11 +269,25 @@ height: 55px;
 
 /* mobile */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   nav ul {
     text-align: center;
+    font-size: 0.9em; 
   }
   nav ul li {
     margin: 20px;
+  }
+
+  .About-text{
+  width: 70%;
+  }
+
+  .work-description{
+    width: 70%;  
+  }
+
+  .script-showcase p{
+    width: 100%;
+    font-size: 0.9em; 
   }
 }
