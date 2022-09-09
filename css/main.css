@@ -208,6 +208,19 @@ height: 55px;
     border-width: 1px
 }
 
+.sourcecode-link{
+    grid-column: 2;
+    grid-row: 3;
+    color: #00524e;
+    font-size: 1.1em; 
+    text-decoration: none;
+    justify-self: left;
+}
+
+.sourcecode-link:hover{
+    color: #a3a3a3
+}
+
 .used-tools{
     grid-column: 1;
     grid-row: 3;
@@ -243,7 +256,7 @@ height: 55px;
 }
 
 .mail-link{
-    color: black;
+    color: #00524e;
     font-size: 1.9em; 
     text-decoration: none;
 }
