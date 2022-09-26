@@ -102,6 +102,22 @@ nav ul li a:hover {
   background-color: #dcdcdc;
 }
 
+.Portrait {
+  margin-top: 10px;
+  position: relative;
+  display:inline-block;
+  width: 130px; 
+  height: 130px; 
+  overflow: hidden; 
+  border-radius: 50%; 
+  border: 1px solid #000000;
+}
+
+.Portrait img{
+  width: 120%; 
+  height: auto;
+}
+
 .about .About-header {
   margin-top: 10px;
   color: #111;
