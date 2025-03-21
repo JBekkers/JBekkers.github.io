@@ -200,6 +200,17 @@ height: 55px;
   grid-gap: 8px;
 }
 
+.wip-icon{ 
+  width: 31px;
+  height: 18px;
+  margin-left: 10px;
+  opacity: 0;
+}
+
+.wip-icon.show{
+  opacity: 1;
+}
+
 .script-showcase h2{
   text-align: left; 
   font-weight: bold;
