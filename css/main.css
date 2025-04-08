@@ -27,7 +27,6 @@ li{
 }
 
 /* Nav bar */
-
  nav ul {
   position: fixed;
   z-index:3;
@@ -52,6 +51,27 @@ nav ul li a:hover {
   color: #ababab;
 }
 
+/* Lang dropdown menu */
+.dropbtn img.navbar-logo {
+  vertical-align: middle;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 5px;
+  z-index: 1;
+}
+
+.dropdown-content a img {
+  width: 50px;
+  height: auto;
+  display: block;
+}
+
 /* Welcome */
 #Welcome{
     position:relative;
@@ -62,8 +82,8 @@ nav ul li a:hover {
     background-color: #BFFFE6;
     position: absolute;
   	left:0;
-	right:0;
-	top: 0;
+	  right:0;
+	  top: 0;
     bottom:0;
     background-image: url("../Assets/Banner.png");
 
