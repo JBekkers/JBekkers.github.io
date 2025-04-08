@@ -13,7 +13,7 @@ body {
 
 hr {
     border: none;
-    background: #BFFFE6;
+    background: #a4f7d7;
     text-align: center;
     height: 100px;
 }
@@ -33,7 +33,7 @@ li{
   text-align: center;
   
   width: 100%;
-  background-color: #EAEAEA;
+  background-color: #cacaca;
   font-family: "Abel",sans-serif; 
   font-size: 1.5em; 
 }
@@ -48,11 +48,11 @@ nav ul li a {
   text-decoration: none;  
 }
 nav ul li a:hover {
-  color: #ababab;
+  color: #a4f7d7;
 }
 
 /* Lang dropdown menu */
-.dropbtn img.navbar-logo {
+.dropbtn img.langMenu {
   vertical-align: middle;
   width: 50px;
   height: auto;
@@ -72,6 +72,14 @@ nav ul li a:hover {
   display: block;
 }
 
+.dropbtn:hover img.langMenu {
+  opacity: 0.5;
+}
+
+.dropdown-content:hover img.langButton {
+  opacity: 0.5;
+}
+
 /* Welcome */
 #Welcome{
     position:relative;
@@ -79,7 +87,7 @@ nav ul li a:hover {
 }
 
 #Welcome .bg-image {
-    background-color: #BFFFE6;
+    background-color: #a4f7d7;
     position: absolute;
   	left:0;
 	  right:0;
@@ -119,7 +127,7 @@ nav ul li a:hover {
   padding-top: 80px;
   margin-top: -60px;
   padding-bottom: 80px;
-  background-color: #dcdcdc;
+  background-color: #acacac;
 }
 
 .Portrait {
@@ -158,7 +166,7 @@ nav ul li a:hover {
 padding-top: 90px;
 margin-top: -60px;
 padding-bottom: 60px;
-background-color: #dcdcdc;
+background-color: #acacac;
 }
 
 .skills .Skills-header {
@@ -191,7 +199,7 @@ height: 55px;
   padding-top: 10px;
   margin-top: -60px;
   padding-bottom: 60px;
-  background-color: #dcdcdc;
+  background-color: #acacac;
 }
 
 .work .Portfolio-header {
@@ -209,7 +217,8 @@ height: 55px;
 }
 
 .work-header:hover{
-  color: #454545;
+  color: #a4f7d7;
+  text-decoration: underline;
 }
 
 .script-showcase{
@@ -262,10 +271,11 @@ height: 55px;
     font-size: 1.1em; 
     text-decoration: none;
     justify-self: left;
+    text-decoration: underline;
 }
 
 .sourcecode-link:hover{
-    color: #a3a3a3
+  color: #a4f7d7;
 }
 
 .used-tools{
@@ -291,7 +301,7 @@ height: 55px;
   padding-top: 30px;
   margin-top: -60px;
   padding-bottom: 30px;
-  background-color: #dcdcdc;
+  background-color: #acacac;
 }
 
 .contact .Contact-header {
@@ -306,10 +316,11 @@ height: 55px;
     color: #00524e;
     font-size: 1.9em; 
     text-decoration: none;
+    text-decoration: underline;
 }
 
 .mail-link:hover{
-    color: #a3a3a3
+    color: #a4f7d7;
 }
 
 .contactDetails{
@@ -325,6 +336,7 @@ height: 55px;
 
 .contact-item:hover{
     opacity: 0.5;
+    text-decoration: underline;
 }
 
 /* mobile */
