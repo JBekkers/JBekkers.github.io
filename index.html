@@ -25,19 +25,45 @@
       <ul id="navbar">
         <li><a href="#Welcome" rel="internal">Welcome</a></li>
         <li><a href="#About-me" rel="internal">About me</a></li>
-        <li><a href="#Portfolio" rel="internal">Portfolio</a></li>
-        <li><a href="#Contact-me" rel="internal">Contact</a></li>
-        
+
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown()">
-              <img src="Assets/EN_icon.png" alt="Dropdown Button" class="langMenu">
+            <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown('LANG')">
+              <span class="dropdownText">Portfolio</span>
             </a>
 
             <div class="dropdown-content">
-              <a href=""><img src="Assets/NL_icon.png" alt="Language Button" class="langButton"></a>
-            </div>
+                <a href="#Bushyman">
+                    <span class="dropdownText">Bushyman</span>
+                </a>
 
-        </li>
+                <a href="#Weeping Willows">
+                     <span class="dropdownText">Weeping Willows</span>
+                </a>
+
+                <a href="#Banananoid">
+                     <span class="dropdownText">Banananoid</span>
+                </a>
+
+                <a href="#Other Projects">
+                     <span class="dropdownText">Other Projects</span>
+                </a>
+          </li>
+
+        <li><a href="#Contact-me" rel="internal">Contact</a></li>
+        
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown()">
+              <img src="Assets/EN_icon.png" alt="Dropdown Button" class="langMenu">
+              <span class="dropdownText">English</span>
+            </a>
+            <div class="dropdown-content">
+              <a href="">
+                <img src="Assets/NL_icon.png" alt="Language Button" class="langButton">
+                <span class="dropdownText">Nederlands</span>
+              </a>
+            </div>
+          </li>
           
       </ul>
     </nav>
@@ -105,7 +131,7 @@
 <div id="Portfolio" class="work">
     <h2 class="Portfolio-header">Portfolio</h2>
 
-    <div class="porfolio-work">
+    <div id="Bushyman" class="porfolio-work">
     <a href="https://www.behance.net/gallery/129078201/Bushy-Man-Game-%28Work-In-Progress%29" target="_blank">
     <h2 class="work-header">Bushyman</h2>
     </a>
@@ -138,7 +164,7 @@
    
     </div>
 
-    <div class="porfolio-work">
+    <div id="Weeping Willows" class="porfolio-work">
     <a href="https://www.behance.net/gallery/147323057/Game-Project-Weeping-Willows?tracking_source=search_projects%7Cweeping%20willows" target="_blank">
     <h2 class="work-header">Weeping Willows</h2>
     </a>
@@ -173,7 +199,7 @@
     
     </div>
 
-    <div class="porfolio-work">
+    <div id="Banananoid" class="porfolio-work">
     <a href="https://www.behance.net/gallery/147323057/Game-Project-Weeping-Willows?tracking_source=search_projects%7Cweeping%20willows" target="_blank">
     <h2 class="work-header">Banananoid</h2>
     </a>
@@ -208,7 +234,7 @@
     
     </div>
 
-    <div class="porfolio-work">
+    <div id="Other Projects" class="porfolio-work">
     <h2 class="work-header">Other Projects</h2>
     <p class="work-description"> These are other small projects that I worked on.</p>  
     </div>

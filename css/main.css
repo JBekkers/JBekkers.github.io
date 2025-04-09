@@ -1,6 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Abel';
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Abel', sans-serif;
   text-align: center;
@@ -35,7 +38,7 @@ li{
   width: 100%;
   background-color: #cacaca;
   font-family: "Abel",sans-serif; 
-  font-size: 1.5em; 
+  font-size: 1.7em; 
 }
 
 nav ul li {
@@ -51,33 +54,52 @@ nav ul li a:hover {
   color: #a4f7d7;
 }
 
-/* Lang dropdown menu */
-.dropbtn img.langMenu {
+
+/*DROPDOWN MENU*/
+
+.dropbtn img {
   vertical-align: middle;
   width: 50px;
   height: auto;
   cursor: pointer;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  margin-top: 5px;
-  z-index: 1;
+.dropdown {
+  margin-top: 10px;
 }
 
 .dropdown-content a img {
   width: 50px;
   height: auto;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #cacaca;
+  position: absolute;
+  font-size: 0.8em;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.dropdownText {
+  margin-left: 10px;
+}
+
+.dropdown:hover .dropbtn img {
+  opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-content {
   display: block;
-}
-
-.dropbtn:hover img.langMenu {
-  opacity: 0.5;
-}
-
-.dropdown-content:hover img.langButton {
-  opacity: 0.5;
 }
 
 /* Welcome */

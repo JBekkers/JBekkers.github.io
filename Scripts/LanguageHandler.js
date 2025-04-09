@@ -1,5 +1,5 @@
 function toggleDropdown() {
-    var dropdownContent = document.querySelector('.dropdown-content');
+    var content = document.querySelector();
     
     // Check if the dropdown is currently visible
     if (dropdownContent.style.display === 'none' || dropdownContent.style.display === '') {
