@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 60px;
 }
 
 body {
@@ -64,20 +65,8 @@ nav ul li a:hover {
 }
 
 /* Dropdown Menu */
-.dropbtn img {
-  vertical-align: middle;
-  width: 30px; /* Smaller icon size */
-  height: auto;
-  cursor: pointer;
-}
-
 .dropdown {
   position: relative;
-}
-
-.dropdown-content a img {
-  margin-top: 10px;
-  width: 30px;
 }
 
 .dropdown-content {
@@ -104,16 +93,55 @@ nav ul li a:hover {
   margin-left: 10px;
 }
 
-.dropdown:hover .dropbtn img {
-  opacity: 0.7;
-}
-
-.dropdown:hover .dropbtn{
+.dropdown.open .dropbtn {
   background-color: #ababab;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropbtn::after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.dropdown.open .dropbtn::after {
+  transform: translateY(-50%) rotate(180deg); 
+}
+
+.lang-menu {
+  display: flex;
+  gap: 10px; /* Space between language buttons */
+}
+
+.language-selector {
+  display: flex;
+  gap: 15px;
+  align-items: center; /* Vertically align language icons */
+}
+
+.lang-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.langButton {
+  width: 30px; /* Size of the flag icons */
+  height: auto;
+  margin-bottom: 5px; /* Space between icon and label */
+}
+
+.lang-label {
+  font-size: 12px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Welcome */
@@ -246,6 +274,13 @@ height: 55px;
 }
 
 .work-header{
+  margin-top: 40px;
+  color: #111;
+  font-weight: bold;
+  font-size: 1.8em; 
+}
+
+.work-header-nolink{
   margin-top: 40px;
   color: #111;
   font-weight: bold;

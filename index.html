@@ -26,41 +26,30 @@
         <li><a href="#Welcome" rel="internal">Welcome</a></li>
         <li><a href="#About-me" rel="internal">About me</a></li>
 
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown('LANG')">
+        <li class="dropdown" id="PROJECTMENU">
+            <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown('PROJECTMENU')">
               <span class="dropdownText">Portfolio</span>
             </a>
-
+          
             <div class="dropdown-content">
-                <a href="#Bushyman">
-                    <span class="dropdownText">Bushyman</span>
-                </a>
-
-                <a href="#Weeping Willows">
-                     <span class="dropdownText">Weeping Willows</span>
-                </a>
-
-                <a href="#Banananoid">
-                     <span class="dropdownText">Banananoid</span>
-                </a>
-
-                <a href="#Other Projects">
-                     <span class="dropdownText">Other Projects</span>
-                </a>
+              <a href="#Bushyman"><span class="dropdownText">Bushyman</span></a>
+              <a href="#Weeping Willows"><span class="dropdownText">Weeping Willows</span></a>
+              <a href="#Banananoid"><span class="dropdownText">Banananoid</span></a>
+              <a href="#Other Projects"><span class="dropdownText">Other Projects</span></a>
+            </div>
           </li>
 
         <li><a href="#Contact-me" rel="internal">Contact</a></li>
         
-
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown()">
-              <img src="Assets/EN_icon.png" alt="Dropdown Button" class="langMenu">
-              <span class="dropdownText">English</span>
-            </a>
-            <div class="dropdown-content">
-              <a href="">
-                <img src="Assets/NL_icon.png" alt="Language Button" class="langButton">
-                <span class="dropdownText">Dutch</span>
+        <li class="lang-menu">
+            <div class="language-selector">
+              <a href="#" class="lang-option">
+                <img src="Assets/EN_icon.png" alt="English" class="langButton">
+                <span class="lang-label">ENG</span>
+              </a>
+              <a href="#" class="lang-option">
+                <img src="Assets/NL_icon.png" alt="Dutch" class="langButton">
+                <span class="lang-label">NL</span>
               </a>
             </div>
           </li>
@@ -165,7 +154,7 @@
     </div>
 
     <div id="Weeping Willows" class="porfolio-work">
-    <a href="https://www.behance.net/gallery/147323057/Game-Project-Weeping-Willows?tracking_source=search_projects%7Cweeping%20willows" target="_blank">
+    <a href="https://gamejolt.com/games/WeepingWillows/447873" target="_blank">
     <h2 class="work-header">Weeping Willows</h2>
     </a>
     <p class="work-description"> Weeping Willows is a 2D horror platformer game about a little girl called Mya. Every time she reaches the end of the level the world turns dark and she starts from the beginning all over again but every time this happens it gets more and more dark and spooky around her.</p>
@@ -200,7 +189,7 @@
     </div>
 
     <div id="Banananoid" class="porfolio-work">
-    <a href="https://www.behance.net/gallery/147323057/Game-Project-Weeping-Willows?tracking_source=search_projects%7Cweeping%20willows" target="_blank">
+    <a href="https://gamejolt.com/games/Banananoid/456383" target="_blank">
     <h2 class="work-header">Banananoid</h2>
     </a>
     <p class="work-description"> Banananoid is a 3D game inspired by Arcanoid. In Banananoid you play as a banana tree that has to run away from hungry monkeys. You have to shoot bananas at the monkeys and bounce them between the monkeys to kill them and stay alive as long as possible.</p>
@@ -235,7 +224,7 @@
     </div>
 
     <div id="Other Projects" class="porfolio-work">
-    <h2 class="work-header">Other Projects</h2>
+    <h2 class="work-header-nolink">Other Projects</h2>
     <p class="work-description"> These are other small projects that I worked on.</p>  
     </div>
 
@@ -348,7 +337,7 @@
 </div>
 
 <script src="Scripts/IconHandler.js"></script>
-<script src="Scripts/LanguageHandler.js"></script>
+<script src="Scripts/MenuHandler.js"></script>
 
 </body>
 </html>
